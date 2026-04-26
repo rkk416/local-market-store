@@ -9,7 +9,7 @@ const catIcon = c => ({grocery:'🥬',electronics:'💻',handicrafts:'🎨',clot
 const statusBadge = s => `<span class="badge badge-${s}">${s}</span>`;
 const fallbackImg = 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=400';
 
-const API = 'http://localhost:3000/api';
+const API = '/api';
 
 /* ─── API Helper ─── */
 const Http = {
